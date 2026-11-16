@@ -1,4 +1,4 @@
-# React Native 学习笔记（Hugo + FixIt）
+# 我的技术笔记（Hugo + FixIt）
 
 这是一个基于 [Hugo](https://gohugo.io/) 和 [FixIt](https://github.com/hugo-fixit/FixIt) 主题搭建的干净博客，外观风格参考了 [Lruihao/hugo-blog](https://github.com/Lruihao/hugo-blog)，但**内容全部是自己的，没有复制任何别人的文章**。
 
@@ -35,7 +35,9 @@ draft: false
 - `draft: true` 表示草稿，本地可见但不会发布；
 - 可以一个文件夹一篇（`文件夹/index.md`，方便放配图），也可以直接放单个 `.md` 文件。
 
-两种写法在本项目里都有示例：`content/posts/hello-world.md`（单文件）和 `content/posts/react-native/welcome/index.md`（文件夹）。
+想加新方向（比如 Kotlin、Flutter）？只要在新文章的 `categories` 里写上新分类名，分类页就会自动多出一个入口，不需要改任何配置。
+
+两种写法在本项目里都有示例：`content/posts/hello-world.md`（单文件）以及 `content/posts/react-native/`、`content/posts/swift/`、`content/posts/source-reading/` 三个文件夹分类。
 
 ## 本地运行（可选）
 

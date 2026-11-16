@@ -4,8 +4,8 @@
 # -------------------------------------------------------------------------------------
 
 version = "0.4.X"
-description = "我的 React Native 学习笔记，记录移动开发的学习、踩坑与思考。"
-keywords = ["React Native", "移动开发", "技术笔记", "学习笔记"]
+description = "我的技术学习笔记，记录 React Native、Swift、源码阅读等方向的学习、踩坑与思考。"
+keywords = ["技术笔记", "学习笔记", "React Native", "Swift", "源码阅读"]
 defaultTheme = "auto"
 dateFormat = "2006-01-02"
 capitalizeTitles = false
@@ -30,13 +30,13 @@ mobileMode = "auto"
 
 [header.title]
 logo = ""
-name = "React Native 学习笔记"
+name = "我的技术笔记"
 pre = ""
 post = ""
 typeit = false
 
 [header.subtitle]
-name = "记录 React Native 学习、踩坑与思考"
+name = "记录技术学习、踩坑与思考"
 typeit = false
 
 # 页脚
@@ -57,8 +57,8 @@ enable = true
 enable = true
 onlyFirstPage = false
 avatarURL = ""
-title = "Hi，欢迎来到我的 React Native 笔记"
-subtitle = "记录学习 React Native 的点滴，一篇篇整理成 Markdown 笔记"
+title = "Hi，欢迎来到我的技术笔记"
+subtitle = "按分类记录 React Native、Swift、源码阅读等学习笔记"
 typeit = false
 social = false
 disclaimer = ""
