@@ -1,6 +1,6 @@
 # 我的技术笔记（Hugo + FixIt）
 
-这是一个基于 [Hugo](https://gohugo.io/) 和 [FixIt](https://github.com/hugo-fixit/FixIt) 主题搭建的干净博客，外观风格参考了 [Lruihao/hugo-blog](https://github.com/Lruihao/hugo-blog)，但**内容全部是自己的，没有复制任何别人的文章**。
+这是一个基于 [Hugo](https://gohugo.io/) 和 [FixIt](https://github.com/hugo-fixit/FixIt) 主题搭建的干净博客，外观风格参考了 [Lruihao/hugo-blog](https://github.com/Lruihao/hugo-blog)。
 
 ## 目录结构
 
@@ -9,7 +9,7 @@
 ├── .github/workflows/   # GitHub Actions 自动构建并部署到 Pages
 ├── archetypes/          # 新建文章时的模板
 ├── config/              # 站点配置（按环境拆分）
-├── content/posts/       # 你的 Markdown 笔记就放这里
+├── content/posts/       # Markdown
 ├── go.mod / go.sum      # Hugo Module 依赖声明（自动拉取 FixIt 主题）
 └── static/              # 静态资源（可选）
 ```
