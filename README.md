@@ -1,4 +1,4 @@
-# 我的技术笔记（Hugo + FixIt）
+# React Native 学习笔记（Hugo + FixIt）
 
 这是一个基于 [Hugo](https://gohugo.io/) 和 [FixIt](https://github.com/hugo-fixit/FixIt) 主题搭建的干净博客，外观风格参考了 [Lruihao/hugo-blog](https://github.com/Lruihao/hugo-blog)，但**内容全部是自己的，没有复制任何别人的文章**。
 
@@ -22,8 +22,8 @@
 ---
 title: "文章标题"
 date: 2026-11-16T10:00:00+08:00
-categories: ["前端"]
-tags: ["CSS", "JavaScript"]
+categories: ["React Native"]
+tags: ["React Native", "移动开发"]
 draft: false
 ---
 
@@ -35,7 +35,7 @@ draft: false
 - `draft: true` 表示草稿，本地可见但不会发布；
 - 可以一个文件夹一篇（`文件夹/index.md`，方便放配图），也可以直接放单个 `.md` 文件。
 
-两种写法在本项目里都有示例：`content/posts/hello-world.md`（单文件）和 `content/posts/frontend/welcome/index.md`（文件夹）。
+两种写法在本项目里都有示例：`content/posts/hello-world.md`（单文件）和 `content/posts/react-native/welcome/index.md`（文件夹）。
 
 ## 本地运行（可选）
 

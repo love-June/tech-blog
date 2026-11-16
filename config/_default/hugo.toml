@@ -2,13 +2,13 @@
 # 站点基础配置
 # -------------------------------------------------------------------------------------
 
-title = "我的技术笔记"
+title = "React Native 学习笔记"
 baseURL = "https://love-June.github.io/tech-blog/"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-cn"
 languageName = "简体中文"
 hasCJKLanguage = true
-copyright = "我的技术笔记"
+copyright = "React Native 学习笔记"
 enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
