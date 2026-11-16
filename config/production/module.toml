@@ -1,0 +1,13 @@
+# -------------------------------------------------------------------------------------
+# 生产环境（执行 hugo 构建时）加载 FixIt 主题
+# -------------------------------------------------------------------------------------
+
+[[imports]]
+path = "github.com/hugo-fixit/FixIt"
+
+[[imports]]
+path = "github.com/hugo-fixit/shortcode-docs-bookmark"
+
+[hugoVersion]
+extended = true
+min = "0.147.7"

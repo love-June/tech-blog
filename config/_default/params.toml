@@ -1,0 +1,79 @@
+# -------------------------------------------------------------------------------------
+# 主题核心配置（只列常用项，其余使用 FixIt 主题默认值）
+# 完整文档：https://fixit.lruihao.cn/documentation/basics/#theme-configuration
+# -------------------------------------------------------------------------------------
+
+version = "0.4.X"
+description = "我的技术学习笔记，按分类整理前端、后端等方向的学习记录。"
+keywords = ["技术笔记", "学习笔记", "博客"]
+defaultTheme = "auto"
+dateFormat = "2006-01-02"
+capitalizeTitles = false
+withSiteTitle = true
+titleDelimiter = " - "
+indexWithSubtitle = false
+summaryPlainify = false
+tooltip = true
+enablePWA = false
+
+# 作者信息
+[author]
+name = "你的名字"
+email = ""
+link = ""
+avatar = ""
+
+# 顶部导航栏
+[header]
+desktopMode = "sticky"
+mobileMode = "auto"
+
+[header.title]
+logo = ""
+name = "我的技术笔记"
+pre = ""
+post = ""
+typeit = false
+
+[header.subtitle]
+name = "记录学习、踩坑与思考"
+typeit = false
+
+# 页脚
+[footer]
+enable = true
+copyright = true
+author = true
+since = "2026"
+license = ""
+
+[footer.powered]
+enable = true
+
+# 首页个人简介
+[home]
+
+[home.profile]
+enable = true
+onlyFirstPage = false
+avatarURL = ""
+title = "Hi，欢迎来到我的技术笔记"
+subtitle = "把学习过的技术，一篇篇整理成 Markdown 笔记放在这里"
+typeit = false
+social = false
+disclaimer = ""
+
+# 首页文章列表
+[home.posts]
+enable = true
+paginate = 6
+
+# 社交链接（先只留 RSS）
+[social]
+GitHub = ""
+RSS = true
+
+# 站内搜索（默认关闭，后续想开可参考 FixIt 文档）
+[search]
+enable = false
+type = "fuse"
