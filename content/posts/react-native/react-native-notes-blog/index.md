@@ -1,5 +1,5 @@
 ---
-title: "从 SwiftUI 到 React Native：一份 React 入门笔记"
+title: "React 入门笔记"
 slug: "react-native-notes-blog"
 date: 2026-11-17T10:00:00+08:00
 categories: ["React Native"]
